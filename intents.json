@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "He", "Hey", "Hello"],
+      "responses": [
+        "Hello!",
+        "How can I help?",
+        "Hi, how can I help?",
+        "Wassup!!!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "exit"],
+      "responses": [
+        "Goodbye",
+        "Bye",
+        "Later",
+        "See you later",
+        "Untill next time!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the wheater like",
+        "weahter update",
+        "give me weather info",
+        "weather information"
+      ],
+      "responses": ["Fetching weather information..."],
+      "contect": [""]
+    }
+  ]
+}
